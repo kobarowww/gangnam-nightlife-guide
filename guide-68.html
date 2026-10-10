@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>강남 리조트 하이퍼블릭 식사 후 2차 모임 준비법</title>
+  <meta name="description" content="강남 리조트 하이퍼블릭에서 식사 후 2차 모임을 계획할 때 이동 인원, 실제 도착시간, 남은 이용시간과 전체 예산을 정리하는 방법을 안내합니다.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f2f5f6;
+      color: #252a2d;
+      font-family: Arial, "Malgun Gothic", sans-serif;
+      line-height: 1.8;
+    }
+
+    main {
+      width: min(840px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: 46px 34px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 12px 34px rgba(39, 54, 62, .1);
+    }
+
+    h1 {
+      margin: 0 0 22px;
+      font-size: 32px;
+      line-height: 1.4;
+      color: #243945;
+    }
+
+    h2 {
+      margin: 44px 0 16px;
+      font-size: 23px;
+      line-height: 1.5;
+      color: #3a6b7e;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      color: #315b6b;
+    }
+
+    p,
+    li,
+    th,
+    td {
+      font-size: 16px;
+    }
+
+    .intro {
+      font-size: 17px;
+      color: #4a555b;
+    }
+
+    .three-points {
+      margin: 30px 0;
+      padding: 22px;
+      background: #eaf3f6;
+      border-left: 5px solid #56879a;
+    }
+
+    .decision-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin: 25px 0;
+    }
+
+    .decision-card {
+      padding: 20px;
+      background: #fafbfc;
+      border: 1px solid #dce5e8;
+      border-radius: 9px;
+    }
+
+    .decision-card p {
+      margin-bottom: 0;
+    }
+
+    .movement-table {
+      width: 100%;
+      margin: 25px 0;
+      border-collapse: collapse;
+    }
+
+    .movement-table th,
+    .movement-table td {
+      padding: 15px;
+      border: 1px solid #d8e0e3;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .movement-table thead th {
+      background: #365f70;
+      color: #fff;
+    }
+
+    .movement-table tbody th {
+      width: 27%;
+      background: #edf3f5;
+      color: #315866;
+    }
+
+    .flow {
+      margin: 26px 0;
+      padding-left: 23px;
+      border-left: 3px solid #6694a4;
+    }
+
+    .flow-item {
+      position: relative;
+      margin: 0 0 23px;
+      padding: 19px 21px;
+      background: #f7f9fa;
+      border-radius: 9px;
+    }
+
+    .flow-item::before {
+      content: "";
+      position: absolute;
+      top: 24px;
+      left: -31px;
+      width: 13px;
+      height: 13px;
+      background: #47798a;
+      border: 3px solid #fff;
+      border-radius: 50%;
+      box-shadow: 0 0 0 2px #6694a4;
+    }
+
+    .flow-item p {
+      margin-bottom: 0;
+    }
+
+    .budget-box {
+      margin: 26px 0;
+      padding: 22px;
+      background: #303d43;
+      color: #fff;
+      border-radius: 9px;
+    }
+
+    .budget-box p {
+      margin: 6px 0;
+    }
+
+    .check-list {
+      padding: 22px 24px 22px 44px;
+      background: #f4f6f6;
+      border-radius: 9px;
+    }
+
+    .check-list li {
+      margin: 8px 0;
+    }
+
+    .notice {
+      margin-top: 34px;
+      padding: 18px 20px;
+      background: #fff7e6;
+      border: 1px solid #ead4a3;
+      border-radius: 8px;
+    }
+
+    .reference {
+      margin-top: 42px;
+      padding-top: 24px;
+      border-top: 1px solid #d9dfe2;
+    }
+
+    a {
+      color: #25728e;
+      font-weight: 700;
+    }
+
+    @media (max-width: 720px) {
+      main {
+        margin: 20px auto;
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 27px;
+      }
+
+      h2 {
+        font-size: 21px;
+      }
+
+      .decision-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .movement-table th,
+      .movement-table td {
+        display: block;
+        width: 100%;
+      }
+
+      .movement-table thead {
+        display: none;
+      }
+
+      .movement-table tbody th {
+        border-bottom: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <article>
+      <h1>강남 리조트 하이퍼블릭 식사 후 2차 모임 준비법</h1>
+
+      <p class="intro">
+        식사나 첫 번째 모임을 마친 뒤 강남 리조트 하이퍼블릭 방문을 알아본다면
+        처음 계획했던 인원과 실제로 이동할 사람이 같은지부터 확인하는 것이 좋습니다.
+        남은 시간과 예산을 빠르게 정리하면 서둘러 장소를 결정하면서
+        중요한 이용 조건을 놓치는 상황을 줄일 수 있습니다.
+      </p>
+
+      <div class="three-points">
+        <strong>2차 모임은 세 가지만 먼저 맞추세요.</strong><br>
+        지금 이동할 인원 · 실제 도착할 수 있는 시각 ·
+        일행이 생각하는 전체 예산을 먼저 정하면 문의가 간단해집니다.
+      </div>
+
+      <h2>1. 처음 모인 인원과 이동할 인원을 구분하세요</h2>
+
+      <p>
+        식사에 참석한 모든 사람이 다음 장소까지 함께 이동하는 것은 아닐 수 있습니다.
+        먼저 귀가할 사람과 추가로 합류할 사람을 구분하고
+        실제 이용할 가능성이 있는 인원을 전달하세요.
+      </p>
+
+      <div class="decision-grid">
+        <section class="decision-card">
+          <h3>바로 이동할 인원</h3>
+          <p>
+            식사가 끝난 뒤 함께 출발할
+            현재 확정 인원을 확인합니다.
+          </p>
+        </section>
+
+        <section class="decision-card">
+          <h3>추가 합류 인원</h3>
+          <p>
+            다음 장소에서 새로 만나거나
+            늦게 도착할 사람을 구분합니다.
+          </p>
+        </section>
+
+        <section class="decision-card">
+          <h3>귀가할 인원</h3>
+          <p>
+            첫 번째 일정까지만 참석하고
+            다음 장소에는 가지 않을 사람을 제외합니다.
+          </p>
+        </section>
+      </div>
+
+      <p>
+        참석 여부가 정해지지 않은 사람은 확정 인원에 포함하기보다
+        추가 가능 인원으로 따로 전달하세요.
+        최대 인원까지 알려주면 공간이나 기본 조건이 달라지는지도 확인할 수 있습니다.
+      </p>
+
+      <h2>2. 식사 종료시간보다 실제 출발시간을 계산하세요</h2>
+
+      <p>
+        예약된 식사 종료시간과 일행이 실제로 자리에서 나오는 시간은 다를 수 있습니다.
+        계산과 짐 정리, 차량 호출이나 일행 합류에 필요한 시간을 포함해
+        지킬 수 있는 도착시간을 정하는 것이 좋습니다.
+      </p>
+
+      <table class="movement-table">
+        <thead>
+          <tr>
+            <th>구간</th>
+            <th>확인할 내용</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>식사 종료</th>
+            <td>예정된 종료 시각과 실제로 식사를 마칠 수 있는 시간을 구분합니다.</td>
+          </tr>
+          <tr>
+            <th>출발 준비</th>
+            <td>계산과 외투, 개인 물품 정리에 필요한 시간을 포함합니다.</td>
+          </tr>
+          <tr>
+            <th>일행 합류</th>
+            <td>서로 다른 장소에서 오는 사람이 있다면 기다리는 시간을 반영합니다.</td>
+          </tr>
+          <tr>
+            <th>이동시간</th>
+            <td>현재 교통수단과 시간대에 맞는 현실적인 이동시간을 계산합니다.</td>
+          </tr>
+          <tr>
+            <th>도착 여유</th>
+            <td>길 찾기와 건물 출입에 필요한 여유시간을 추가합니다.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>3. 남은 이용시간을 먼저 정하세요</h2>
+
+      <p>
+        2차 모임은 시작 시각보다 반드시 마쳐야 하는 시각이
+        더 중요한 경우가 있습니다. 귀가 교통편이나 다음 일정이 있다면
+        종료 희망 시간을 먼저 정한 뒤 이용 가능한 시간을 계산하세요.
+      </p>
+
+      <div class="flow">
+        <section class="flow-item">
+          <h3>도착 예정 시각</h3>
+          <p>
+            가장 빠른 시각 대신 실제로 지킬 수 있는 시간을 전달합니다.
+          </p>
+        </section>
+
+        <section class="flow-item">
+          <h3>기본 이용시간</h3>
+          <p>
+            시간이 언제부터 계산되는지와 기본 시간의 범위를 확인합니다.
+          </p>
+        </section>
+
+        <section class="flow-item">
+          <h3>마쳐야 하는 시각</h3>
+          <p>
+            먼저 귀가할 일행이나 교통편에 맞는 종료시간을 정합니다.
+          </p>
+        </section>
+
+        <section class="flow-item">
+          <h3>연장 가능성</h3>
+          <p>
+            더 머물고 싶을 경우 연장 가능 여부와 추가 조건을 확인합니다.
+          </p>
+        </section>
+      </div>
+
+      <h2>4. 모임 분위기를 한 문장으로 설명하세요</h2>
+
+      <p>
+        공간이 크거나 좋다는 표현보다 일행이 어떤 시간을 보내고 싶은지
+        한 문장으로 전달하는 것이 좋습니다.
+        대화가 중심인지 음악을 함께 즐길 예정인지에 따라
+        필요한 좌석과 공간 조건이 달라질 수 있습니다.
+      </p>
+
+      <ul class="check-list">
+        <li>전체 인원이 같은 공간에 앉아야 하는지</li>
+        <li>대화하기 편한 좌석 구성이 필요한지</li>
+        <li>음악과 음량을 조절할 수 있어야 하는지</li>
+        <li>늦게 합류할 사람이 같은 공간을 이용할 수 있는지</li>
+        <li>인원 변경 시 공간 조건이 달라지는지</li>
+      </ul>
+
+      <p>
+        ‘리조트’라는 이름이 숙박이나 특정 휴양시설을 의미한다고
+        판단해서는 안 됩니다. 공식 페이지는 하이퍼블릭 방문 준비를 안내하고 있으므로
+        실제 이용 공간과 가능한 서비스는 일정과 인원을 기준으로 확인하세요.
+      </p>
+
+      <h2>5. 예산은 남은 모임 비용을 기준으로 정하세요</h2>
+
+      <p>
+        식사에서 이미 사용한 금액과 별개로
+        2차 모임에서 사용할 수 있는 전체 예산을 정하는 것이 좋습니다.
+        안내받은 주대가 한 사람 기준인지 전체 인원 기준인지,
+        기본 주문과 이용시간이 어떻게 포함되는지 확인하세요.
+      </p>
+
+      <div class="budget-box">
+        <p><strong>예산 문의 시 확인할 항목</strong></p>
+        <p>방문 인원: ○명</p>
+        <p>예상 이용시간: ○시간</p>
+        <p>전체 모임 예산: ○원 범위</p>
+        <p>기본 금액에 포함되는 항목</p>
+        <p>추가 주문과 시간 연장 시 달라지는 금액</p>
+        <p>세금이나 봉사료 등 별도 항목의 포함 여부</p>
+      </div>
+
+      <h2>6. 당일 문의와 예약 확정을 구분하세요</h2>
+
+      <p>
+        원하는 시간에 이용할 수 있다는 답을 들은 것이
+        곧 예약 완료를 뜻하는 것은 아닐 수 있습니다.
+        일행과 상의한 뒤 결정할 예정이라면 그 점을 알리고
+        최종 확정을 위해 필요한 절차를 확인하세요.
+      </p>
+
+      <ul class="check-list">
+        <li>현재 시간에 방문 가능한지</li>
+        <li>해당 인원이 이용할 공간이 가능한지</li>
+        <li>안내받은 시간과 비용 조건이 무엇인지</li>
+        <li>문의 단계인지 예약이 완료된 상태인지</li>
+        <li>도착 지연 시 연락할 방법이 무엇인지</li>
+      </ul>
+
+      <h2>7. 일행에게는 핵심 내용만 공유하세요</h2>
+
+      <p>
+        예약을 정했다면 날짜와 도착 시각, 확정 인원,
+        기본 비용과 예약 상태를 짧게 정리해 공유하세요.
+        여러 사람이 각자 문의했다면 어떤 조건으로 최종 확정했는지
+        하나의 메시지로 맞추는 것이 좋습니다.
+      </p>
+
+      <p>
+        공식 안내 페이지에 사용된 사진은 라운지 분위기를 위한 연출 이미지이며
+        실제 리조트 시설이나 근무 인물을 소개하는 사진이 아니라고 안내되어 있습니다.
+        공간 크기와 구성은 방문 날짜와 인원에 맞춰 확인하세요.
+      </p>
+
+      <div class="notice">
+        강남 리조트 하이퍼블릭의 공간, 이용시간과 주대,
+        예약 가능 여부는 방문 시각과 인원에 따라 달라질 수 있습니다.
+        당일 계획이 바뀌면 변경된 내용으로 다시 확인하세요.
+      </div>
+
+      <div class="reference">
+        <p>
+          강남 리조트 하이퍼블릭 방문과 예약 관련 최신 안내는
+          <a href="https://gangnam-resort-hyper.isweb.co.kr/"
+             target="_blank"
+             rel="noopener noreferrer">
+            강남 리조트 하이퍼블릭 공식 안내 페이지
+          </a>
+          에서 확인할 수 있습니다.
+        </p>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
