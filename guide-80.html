@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>강남 오스카 텐카페 예약 시간과 일정 변경 확인법</title>
+  <meta name="description" content="강남 오스카 텐카페 방문 전 예약 시간과 실제 도착 시간을 구분하고 인원, 비용, 이용 시간 변경 시 확인할 순서를 안내합니다.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f6f3ee;
+      color: #292725;
+      font-family: Arial, "Malgun Gothic", sans-serif;
+      line-height: 1.8;
+    }
+
+    main {
+      width: calc(100% - 32px);
+      max-width: 800px;
+      margin: 48px auto;
+      padding: 44px 32px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 26px rgba(60, 48, 35, .09);
+    }
+
+    h1 {
+      margin: 0 0 24px;
+      font-size: 32px;
+      line-height: 1.4;
+      color: #463a2d;
+    }
+
+    h2 {
+      margin: 44px 0 14px;
+      font-size: 22px;
+      line-height: 1.5;
+      color: #765c3d;
+    }
+
+    p,
+    li {
+      font-size: 16px;
+    }
+
+    .intro {
+      margin: 28px 0;
+      padding: 20px 22px;
+      background: #f4ede3;
+      border-left: 4px solid #9d794f;
+    }
+
+    .schedule-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin: 28px 0;
+    }
+
+    .schedule-grid section {
+      padding: 20px;
+      background: #faf8f5;
+      border: 1px solid #e4ddd3;
+      border-radius: 8px;
+    }
+
+    .schedule-grid h3 {
+      margin: 0 0 9px;
+      color: #6c5338;
+      font-size: 18px;
+    }
+
+    .schedule-grid p {
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .check-list {
+      margin: 22px 0;
+      padding: 20px 24px 20px 42px;
+      background: #fafafa;
+      border: 1px solid #e1e1df;
+      border-radius: 8px;
+    }
+
+    .change-steps {
+      margin: 26px 0;
+      padding-left: 0;
+      list-style: none;
+      counter-reset: change;
+    }
+
+    .change-steps li {
+      position: relative;
+      margin-bottom: 14px;
+      padding: 18px 20px 18px 66px;
+      background: #f7f5f1;
+      border-radius: 8px;
+    }
+
+    .change-steps li::before {
+      counter-increment: change;
+      content: counter(change);
+      position: absolute;
+      top: 18px;
+      left: 20px;
+      width: 28px;
+      height: 28px;
+      color: #fff;
+      background: #816442;
+      border-radius: 50%;
+      line-height: 28px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .memo-box {
+      margin-top: 26px;
+      padding: 22px;
+      color: #faf7f2;
+      background: #40372e;
+      border-radius: 8px;
+    }
+
+    .memo-box p {
+      margin-bottom: 0;
+    }
+
+    .reference {
+      margin-top: 44px;
+      padding-top: 24px;
+      border-top: 1px solid #ddd;
+    }
+
+    a {
+      color: #805b31;
+      font-weight: bold;
+    }
+
+    @media (max-width: 700px) {
+      main {
+        margin: 20px auto;
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 27px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      .schedule-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <article>
+      <h1>강남 오스카 텐카페 예약 시간과 일정 변경 확인법</h1>
+
+      <p>
+        강남 오스카 텐카페 방문을 준비할 때는
+        희망 예약 시간과 현실적으로 도착할 수 있는 시간을 구분해야 합니다.
+        앞선 식사나 다른 약속이 늦어지거나 일행이 따로 움직인다면
+        기존 예약의 공간과 이용 시간이 달라질 수 있으므로
+        변경 내용을 정해진 순서로 다시 확인하세요.
+      </p>
+
+      <div class="intro">
+        예약 시각, 첫 도착 시각, 전체 일행의 합류 시각을 구분하면
+        이용 시간과 변경 조건을 보다 정확하게 확인할 수 있습니다.
+      </div>
+
+      <h2>1. 앞선 약속의 종료 시간부터 계산하세요</h2>
+
+      <p>
+        식사나 다른 약속이 끝나는 시각을
+        오스카 도착 시각으로 그대로 잡아서는 안 됩니다.
+        결제와 이동 준비, 실제 이동 및 일행 합류에 필요한 시간을
+        별도로 더해야 합니다.
+      </p>
+
+      <ul class="check-list">
+        <li>앞선 약속이 끝날 것으로 예상하는 시각</li>
+        <li>출발 준비에 필요한 시간</li>
+        <li>장소 사이의 실제 이동 시간</li>
+        <li>일행을 기다리거나 합류하는 시간</li>
+        <li>현실적으로 가능한 최종 도착 시각</li>
+      </ul>
+
+      <h2>2. 세 가지 시간을 각각 기록하세요</h2>
+
+      <div class="schedule-grid">
+        <section>
+          <h3>예약 시간</h3>
+          <p>
+            상담 과정에서 방문하기로 정한 공식적인 시각입니다.
+          </p>
+        </section>
+
+        <section>
+          <h3>첫 도착 시간</h3>
+          <p>
+            일행 가운데 가장 먼저 도착할 사람이 도착하는 시각입니다.
+          </p>
+        </section>
+
+        <section>
+          <h3>전체 합류 시간</h3>
+          <p>
+            늦게 오는 사람까지 모든 일행이 모이는 시각입니다.
+          </p>
+        </section>
+      </div>
+
+      <p>
+        일부 인원이 먼저 도착한다면
+        이용 시간이 어느 시점을 기준으로 시작되는지 확인하세요.
+        늦게 합류하는 사람에게도 같은 공간과 이용 조건이 적용되는지
+        함께 알아두는 것이 좋습니다.
+      </p>
+
+      <h2>3. 정확한 시간이 없으면 예상 범위를 전달하세요</h2>
+
+      <p>
+        도착 시각을 정확하게 정하기 어렵다면
+        가장 빠르게 도착할 수 있는 시간과
+        늦어질 경우의 시간을 범위로 전달할 수 있습니다.
+      </p>
+
+      <p>
+        최종 시각을 언제까지 알려야 하는지와
+        당일 늦어질 경우 누구에게 연락해야 하는지도 확인하세요.
+        이용 가능하다는 답을 받았더라도
+        출발 전 실제 상황을 기준으로 다시 점검하는 것이 좋습니다.
+      </p>
+
+      <h2>4. 예약 메모에는 연락 담당자를 표시하세요</h2>
+
+      <p>
+        여러 사람이 각자 다른 조건으로 문의하면
+        최종 예약 내용이 섞일 수 있습니다.
+        예약을 담당할 사람과 연락 가능한 번호를 정하고
+        확정된 안내를 한 번에 공유하세요.
+      </p>
+
+      <ul class="check-list">
+        <li>예약을 진행한 사람의 이름</li>
+        <li>연락을 맡은 사람</li>
+        <li>확정된 방문 날짜와 예약 시간</li>
+        <li>현재 인원과 추가 합류 인원</li>
+        <li>변경 시 연락할 방법</li>
+      </ul>
+
+      <h2>5. 시간뿐 아니라 공간 조건도 함께 확인하세요</h2>
+
+      <p>
+        원하는 시간에 방문할 수 있더라도
+        현재 인원에 맞는 공간이 안내되는지는 별도로 확인해야 합니다.
+        전체 일행이 함께 앉을 수 있는지,
+        필요한 좌석 형태와 이동 여유가 있는지 살펴보세요.
+      </p>
+
+      <p>
+        페이지에 사용된 사진은 라운지 분위기를 표현한 연출 이미지이며,
+        실제 시설이나 인물을 소개하는 자료가 아니라고 안내되어 있습니다.
+        사진 속 전망과 가구, 공간 크기를 실제 제공 조건으로 판단하지 마세요.
+      </p>
+
+      <h2>6. 비용 메모에는 적용 조건을 함께 적으세요</h2>
+
+      <p>
+        금액만 적어두면 나중에 어떤 인원과 이용 시간을
+        기준으로 안내받았는지 기억하기 어렵습니다.
+        주대의 인원 기준과 기본 구성, 별도 항목을 함께 기록하세요.
+      </p>
+
+      <ul class="check-list">
+        <li>안내 금액이 적용되는 인원</li>
+        <li>기본 이용 시간</li>
+        <li>기본 구성에 포함된 항목</li>
+        <li>별도로 계산되는 항목</li>
+        <li>추가 주문 또는 시간 연장 비용</li>
+      </ul>
+
+      <p>
+        추가 주문이나 연장을 선택할 예정이라면
+        결정하기 전에 비용과 가능 여부를 확인하세요.
+        변경된 내용을 일행에게 공유하면
+        나중에 비용을 정리할 때 생기는 혼선을 줄일 수 있습니다.
+      </p>
+
+      <h2>7. 일정 변경은 순서대로 전달하세요</h2>
+
+      <ol class="change-steps">
+        <li>
+          <strong>기존 예약을 확인합니다.</strong><br>
+          예약자 이름과 원래 날짜, 시간 및 인원을 먼저 전달합니다.
+        </li>
+
+        <li>
+          <strong>바뀐 내용을 설명합니다.</strong><br>
+          인원이 바뀌는지, 도착 시간이 달라지는지 구분해서 알립니다.
+        </li>
+
+        <li>
+          <strong>영향받는 조건을 확인합니다.</strong><br>
+          공간과 비용, 이용 시간이 유지되는지 다시 확인합니다.
+        </li>
+
+        <li>
+          <strong>최종 답변을 공유합니다.</strong><br>
+          변경된 예약이 확정됐는지 확인하고 일행에게 전달합니다.
+        </li>
+      </ol>
+
+      <h2>8. 변경 요청과 변경 확정은 다릅니다</h2>
+
+      <p>
+        변경을 요청했다는 사실만으로
+        새로운 일정이 적용됐다고 판단해서는 안 됩니다.
+        바뀐 날짜와 시간, 인원으로 이용 가능한지
+        최종 답변을 다시 확인하세요.
+      </p>
+
+      <p>
+        취소가 필요한 상황이라면
+        적용되는 조건과 처리 방법을 먼저 확인해야 합니다.
+        확인되지 않은 방식으로 일정을 정리하기보다
+        안내받은 절차를 기준으로 진행하는 것이 좋습니다.
+      </p>
+
+      <h2>9. 일행에게는 최종 내용만 간단히 공유하세요</h2>
+
+      <div class="memo-box">
+        <strong>일행 공유용 최종 예약 메모</strong>
+        <p>
+          장소: 강남 오스카 텐카페<br>
+          예약 날짜·시간: ○월 ○일 ○시<br>
+          첫 도착 인원·시각: ○명 / ○시<br>
+          전체 합류 인원·시각: ○명 / ○시<br>
+          이용 시간과 공간 조건: ○○<br>
+          연락 담당자: ○○
+        </p>
+      </div>
+
+      <p>
+        처음 문의했던 내용과 변경된 내용을 모두 길게 공유하기보다
+        최종 확정된 날짜와 시간, 인원 및 공간 조건을 전달하세요.
+        아직 확인되지 않은 항목은 확정된 정보와 분리해서 표시하는 것이 좋습니다.
+      </p>
+
+      <h2>10. 출발 직전 실제 도착 시간을 다시 점검하세요</h2>
+
+      <p>
+        예약 시간이 가까워졌을 때 앞선 일정이 지연됐다면
+        급하게 이동하기보다 실제 도착 예정 시각을 다시 계산하세요.
+        여유가 줄었다면 이용 시간과 예약 조건이
+        어떻게 적용되는지 확인한 뒤 일정을 조정하는 편이 좋습니다.
+      </p>
+
+      <div class="reference">
+        <p>
+          강남 오스카 텐카페의 방문 일정과 예약 메모,
+          시간 및 인원 변경 관련 안내는
+          <a href="https://gangnam-oscar.isweb.co.kr/"
+             target="_blank"
+             rel="noopener noreferrer">
+            강남 오스카 텐카페 방문 안내 페이지
+          </a>
+          에서 확인할 수 있습니다.
+        </p>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
